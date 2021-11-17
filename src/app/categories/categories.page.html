@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Metrics
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row class="categories-list">
+    <ion-col class="category-item travel-category" size="12">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/metrics/40dash.jpg'">
+        <app-aspect-ratio [ratio]="{w:40, h:12}">
+          <a class="category-anchor" [routerLink]="['/app/categories/travel']">
+            <h2 class="category-title">40 Yard Dash</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item travel-category" size="12">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/metrics/20shuttle.jpg'">
+        <app-aspect-ratio [ratio]="{w:40, h:12}">
+          <a class="category-anchor" [routerLink]="['/app/categories/deals']">
+            <h2 class="category-title">20 Yard Shuttle</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item travel-category" size="12">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/metrics/3cone.jpg'">
+        <app-aspect-ratio [ratio]="{w:40, h:12}">
+          <a class="category-anchor" [routerLink]="['/app/categories/real-estate']">
+            <h2 class="category-title">3 Cone Drill</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item travel-category" size="12">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/metrics/bench.jpg'">
+        <app-aspect-ratio [ratio]="{w:40, h:12}">
+          <a class="category-anchor" [routerLink]="['/app/categories/real-estate']">
+            <h2 class="category-title">Bench Press</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item travel-category" size="12">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/metrics/vertical.jpg'">
+        <app-aspect-ratio [ratio]="{w:40, h:12}">
+          <a class="category-anchor" [routerLink]="['/app/categories/real-estate']">
+            <h2 class="category-title">Vertical Jump</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item travel-category" size="12">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/metrics/broad.jpg'">
+        <app-aspect-ratio [ratio]="{w:40, h:12}">
+          <a class="category-anchor" [routerLink]="['/app/categories/real-estate']">
+            <h2 class="category-title">Broad Jump</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+  </ion-row>
+</ion-content>
